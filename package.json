@@ -23,6 +23,8 @@
     "webpack-cli": "^5.0.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.20"
+    "css-loader": "^6.7.3",
+    "nodemon": "^2.0.20",
+    "style-loader": "^3.3.1"
   }
 }
