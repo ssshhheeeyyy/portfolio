@@ -1,0 +1,30 @@
+* {
+  background-color: whitesmoke;
+}
+
+#projects-images {
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.image-project {
+  width: 30em;
+  height: 30em;
+  /* padding: 1em; */
+  object-fit: fill;
+}
+
+.image-project-stars {
+  width: 30em;
+  height: 30em;
+  /* padding: 1em; */
+  object-fit: cover;
+}
+
+li {
+  list-style: none;
+}
