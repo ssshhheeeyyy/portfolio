@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <nav className="dropdown">
-      <button className="circle" onClick={handleMenu}></button>
+      <button id="triangle" onClick={handleMenu}></button>
       {open ? (
         <ul className="menu">
           <li className="home-button">

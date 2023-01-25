@@ -1,10 +1,37 @@
 * {
   background-color: whitesmoke;
+  /* font-family: 'Nanum Myeongjo', serif; */
+  font-family: 'Barrio', cursive;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+#triangle {
+  border-left: 15px dashed transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 33px dashed black;
+  border-top-style: none;
+}
+
+.menu > li > button {
+  border-style: none;
+  border-bottom: 0.1em solid black;
+}
+
+.menu > li > button > a {
+  color: black;
+  text-decoration: none;
 }
 
 #projects-images {
   display: flex;
-  /* flex-direction: column; */
   flex-wrap: wrap;
   justify-content: center;
   justify-items: center;
@@ -14,14 +41,12 @@
 .image-project {
   width: 30em;
   height: 30em;
-  /* padding: 1em; */
   object-fit: fill;
 }
 
 .image-project-stars {
   width: 30em;
   height: 30em;
-  /* padding: 1em; */
   object-fit: cover;
 }
 
