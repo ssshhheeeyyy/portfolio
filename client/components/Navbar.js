@@ -27,6 +27,13 @@ const Navbar = () => {
               </Link>
             </button>
           </li>
+          <li className="about-button">
+            <button>
+              <Link to={'/about'} onClick={handleMenu}>
+                ABOUT
+              </Link>
+            </button>
+          </li>
         </ul>
       ) : null}
     </nav>
