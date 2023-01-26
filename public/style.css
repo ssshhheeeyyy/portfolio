@@ -1,7 +1,13 @@
 * {
   background-color: whitesmoke;
   /* font-family: 'Nanum Myeongjo', serif; */
-  font-family: 'Barrio', cursive;
+  /* font-family: 'Barrio', cursive; */
+  font-family: 'Unbounded';
+}
+
+#container {
+  position: relative;
+  min-height: 100vh;
 }
 
 .dropdown {
@@ -52,4 +58,52 @@
 
 li {
   list-style: none;
+}
+
+.home-paragraph {
+  text-align: center;
+  margin: 10em;
+}
+
+.hovered {
+  margin: 10em;
+  text-align: center;
+  font-weight: 1000;
+}
+#about {
+  display: flex;
+  flex-direction: column;
+  font-size: 1em;
+}
+
+#about p {
+  text-align: justify;
+  margin-left: 10em;
+  margin-right: 10em;
+}
+
+#about .top {
+  margin-top: 10em;
+}
+
+@media (max-width: 450px) {
+  #about {
+    font-size: 0.5em;
+  }
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.7em;
 }
