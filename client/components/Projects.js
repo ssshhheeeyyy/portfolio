@@ -4,18 +4,18 @@ import { Link } from 'react-router-dom';
 const Projects = () => {
   return (
     <section>
-      <ul id="projects-images">
-        <li>
+      <div id="projects-images">
+        <div>
           <Link to={'/projects/lisaQuest'}>
-            <img src="stars.png" className="image-project-stars"></img>
+            <img src="stars.png" className="image-project"></img>
           </Link>
-        </li>
-        <li>
+        </div>
+        <div>
           <Link to={'/projects/allMatcha'}>
             <img src="matcha.png" className="image-project"></img>
           </Link>
-        </li>
-      </ul>
+        </div>
+      </div>
     </section>
   );
 };

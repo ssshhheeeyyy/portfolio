@@ -12,6 +12,7 @@
 
 .dropdown {
   position: relative;
+  margin-bottom: 5%;
 }
 
 .menu {
@@ -38,21 +39,22 @@
 
 #projects-images {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   justify-items: center;
   align-items: center;
 }
 
-.image-project {
+/* .image-project {
   width: 30em;
   height: 30em;
   object-fit: fill;
-}
+} */
 
-.image-project-stars {
-  width: 30em;
-  height: 30em;
+.image-project {
+  width: 100em;
+  height: 10em;
   object-fit: cover;
 }
 
