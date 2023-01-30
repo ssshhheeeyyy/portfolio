@@ -11,13 +11,12 @@
 }
 
 .dropdown {
-  position: relative;
   margin-bottom: 5%;
+  background: none;
 }
 
 .menu {
-  display: flex;
-  justify-content: space-around;
+  background: none;
 }
 
 #triangle {
@@ -27,33 +26,83 @@
   border-top-style: none;
 }
 
+.menu > li {
+  background: none;
+  float: left;
+  text-align: left;
+}
+
 .menu > li > button {
+  background: none;
   border-style: none;
-  border-bottom: 0.1em solid black;
 }
 
 .menu > li > button > a {
+  background: none;
   color: black;
-  text-decoration: none;
+  padding: 2em;
 }
 
 #projects-images {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  justify-items: center;
-  align-items: center;
+  display: block;
+  position: relative;
 }
 
-/* .image-project {
-  width: 30em;
-  height: 30em;
-  object-fit: fill;
-} */
+#projects-lisa {
+  margin-top: 5em;
+}
+
+#lisa {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  background: none;
+}
+
+#lisa h2 {
+  color: whitesmoke;
+  background: none;
+}
+
+#lisa p {
+  color: whitesmoke;
+  background: none;
+}
+
+#matcha {
+  position: absolute;
+  top: 11em;
+  left: 1em;
+  background: none;
+}
+
+#matcha h2 {
+  background: none;
+}
+
+#matcha p {
+  background: none;
+}
+
+#room {
+  position: absolute;
+  top: 21em;
+  left: 1em;
+  background: none;
+  color: whitesmoke;
+}
+
+#room h2 {
+  background: none;
+}
+
+#room p {
+  background: none;
+}
 
 .image-project {
-  width: 100em;
+  /* padding: 2em; */
+  width: 100%;
   height: 10em;
   object-fit: cover;
 }
@@ -67,11 +116,10 @@ li {
   margin: 10em;
 }
 
-.hovered {
-  margin: 10em;
-  text-align: center;
+.home-paragraph:hover {
   font-weight: 1000;
 }
+
 #about {
   display: flex;
   flex-direction: column;
