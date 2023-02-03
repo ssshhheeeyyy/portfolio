@@ -8,8 +8,13 @@ const Shape = () => {
 
   return (
     <mesh ref={ref}>
-      <tetrahedronGeometry attach="geometry" />
-      <meshNormalMaterial attach="material" />
+      <torusKnotGeometry attach="geometry" args={[1.5, 0.5]} />
+      <meshPhongMaterial
+        attach="material"
+        specular="black"
+        color="black"
+        shininess={500}
+      />
     </mesh>
   );
 };
