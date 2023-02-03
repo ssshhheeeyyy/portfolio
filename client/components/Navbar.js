@@ -1,3 +1,5 @@
+//NOT IN USE ANYMORE BUT LEFT FOR REFERENCE OF THE OLD NAVBAR
+
 import * as React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -14,25 +16,19 @@ const Navbar = () => {
       {open ? (
         <ul className="menu">
           <li className="home-button">
-            <button>
-              <Link to={'/'} onClick={handleMenu}>
-                HOME
-              </Link>
-            </button>
+            <Link to={'/'} onClick={handleMenu}>
+              HOME
+            </Link>
           </li>
           <li className="projects-button">
-            <button>
-              <Link to={'/projects'} onClick={handleMenu}>
-                PROJECTS
-              </Link>
-            </button>
+            <Link to={'/projects'} onClick={handleMenu}>
+              PROJECTS
+            </Link>
           </li>
           <li className="about-button">
-            <button>
-              <Link to={'/about'} onClick={handleMenu}>
-                ABOUT
-              </Link>
-            </button>
+            <Link to={'/about'} onClick={handleMenu}>
+              ABOUT
+            </Link>
           </li>
         </ul>
       ) : null}
