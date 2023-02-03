@@ -1,8 +1,8 @@
 * {
-  background-color: whitesmoke;
   /* font-family: 'Nanum Myeongjo', serif; */
   /* font-family: 'Barrio', cursive; */
   font-family: 'Unbounded';
+  background-color: whitesmoke;
 }
 
 #container {
@@ -12,35 +12,27 @@
 
 .dropdown {
   margin-bottom: 5%;
-  background: none;
 }
 
 .menu {
-  background: none;
+  width: 90%;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
+/* 
 #triangle {
   border-left: 15px dashed transparent;
   border-right: 15px solid transparent;
   border-bottom: 33px dashed black;
   border-top-style: none;
-}
+} */
 
-.menu > li {
-  background: none;
-  float: left;
-  text-align: left;
-}
-
-.menu > li > button {
-  background: none;
-  border-style: none;
-}
-
-.menu > li > button > a {
-  background: none;
+.menu > li > a {
   color: black;
-  padding: 2em;
+  font-size: 0.8em;
 }
 
 #projects-images {
@@ -120,6 +112,10 @@ li {
   font-weight: 1000;
 }
 
+#lisa-main {
+  margin-top: 3em;
+}
+
 #about {
   display: flex;
   flex-direction: column;
@@ -150,6 +146,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  margin-bottom: 1em;
 }
 
 footer a {
