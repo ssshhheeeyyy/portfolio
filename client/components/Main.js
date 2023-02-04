@@ -10,6 +10,7 @@ import Footer from './Footer';
 import AllMatcha from './AllMatcha';
 import Room from './Room';
 import Shape from './Shape';
+import NotFound from './NotFound';
 
 const Main = () => {
   const [open, setOpen] = useState(false);
@@ -59,6 +60,7 @@ const Main = () => {
           <Route path="all-matcha" element={<AllMatcha />} />
           <Route path="room" element={<Room />} />
         </Route>
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <section id="footer">
         <Footer />
