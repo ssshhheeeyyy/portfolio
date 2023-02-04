@@ -1,6 +1,4 @@
 * {
-  /* font-family: 'Nanum Myeongjo', serif; */
-  /* font-family: 'Barrio', cursive; */
   font-family: 'Unbounded';
   background-color: whitesmoke;
 }
@@ -104,7 +102,7 @@ li {
 
 .home-paragraph {
   text-align: center;
-  margin: 10em;
+  margin: 5em;
 }
 
 .home-paragraph:hover {
@@ -166,18 +164,12 @@ li {
   width: 250%;
   padding: 1em;
   height: 100%;
-  /* object-fit: contain; */
-  /* width: fit-content; */
 }
 
 .aside-image-2 {
   width: 250%;
   padding: 1em;
-  /* height: 100%; */
-  /* max-width: 30em; */
   max-width: 40em;
-  /* object-fit: contain; */
-  /* width: fit-content; */
 }
 
 .section-image {
@@ -250,12 +242,8 @@ li {
   padding-right: 1em;
 }
 
-#lisa-lasth2 {
-  margin-bottom: 3em;
-}
-
-#matcha-last {
-  margin-bottom: 3em;
+#bottom {
+  margin-bottom: 4em;
 }
 
 @media (max-width: 850px) {
@@ -285,4 +273,8 @@ footer a {
   text-decoration: none;
   color: black;
   font-size: 0.7em;
+}
+
+.not-found {
+  text-align: center;
 }
