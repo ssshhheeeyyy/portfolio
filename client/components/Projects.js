@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
+import stars from '../../public/stars.png';
+import allMatcha from '../../public/matcha.png';
+import room from '../../public/room.png';
 
 const Projects = () => {
   const [desc, showDesc] = useState('');
@@ -15,8 +18,8 @@ const Projects = () => {
       }}
     >
       <div id="projects-lisa">
-        <Link to={'/projects/lisaQuest'}>
-          <img src="stars.png" className="image-project" id="lisa-container" />
+        <Link to={'lisa-quest'}>
+          <img src={stars} className="image-project" id="lisa-container" />
         </Link>
         {desc === 'lisa-container' ? (
           <div id="lisa">
@@ -26,9 +29,9 @@ const Projects = () => {
         ) : null}
       </div>
       <div>
-        <Link to={'/projects/allMatcha'}>
+        <Link to={'all-matcha'}>
           <img
-            src="matcha.png"
+            src={allMatcha}
             className="image-project"
             id="matcha-container"
           />
@@ -41,8 +44,8 @@ const Projects = () => {
         ) : null}
       </div>
       <div>
-        <Link to={'/projects/allMatcha'}>
-          <img src="room.png" className="image-project" id="room-container" />
+        <Link to={'room'}>
+          <img src={room} className="image-project" id="room-container" />
         </Link>
         {desc === 'room-container' ? (
           <div id="room">
@@ -51,6 +54,7 @@ const Projects = () => {
           </div>
         ) : null}
       </div>
+      <Outlet />
     </section>
   );
 };
