@@ -61,14 +61,13 @@ const AllMatcha = () => {
         </div>
       </section>
       <section className="project-contributions3">
-        <h2>
+        <h2 id="bottom">
           In terms of styling, my team and I created wireframes on Figma and
           designed our site to have a fresh look. <br />I took charge of
           designing the logo and applying the CSS that styles the background,
           navigation bar, home page and products views, all while making sure I
           followed a responsive design.
         </h2>
-        <img src={closeUp} id="matcha-last" className="section-image"></img>
       </section>
     </main>
   );
