@@ -7,6 +7,7 @@ module.exports = {
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'public'),
+    assetModuleFilename: 'images/[hash][ext][query]',
   },
   mode: 'development',
   context: __dirname,
