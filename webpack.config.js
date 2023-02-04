@@ -1,8 +1,12 @@
+'use strict';
+
+const path = require('path');
+
 module.exports = {
   entry: ['./client/index.js'],
   output: {
-    path: __dirname,
-    filename: './public/bundle.js',
+    filename: 'bundle.js',
+    path: path.resolve(__dirname, 'public'),
   },
   mode: 'development',
   context: __dirname,
