@@ -126,9 +126,9 @@ li {
   padding-bottom: 5em;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 430px) {
   #about {
-    font-size: 0.5em;
+    font-size: 50%;
   }
 }
 
@@ -141,20 +141,43 @@ li {
   padding: 1em;
   padding-left: 3em;
   padding-right: 3em;
-  text-align: center;
 }
 
 .project-intro > h1 {
   font-size: 3em;
 }
 
+.project-intro > h1,
+.project-mini-desc {
+  text-align: center;
+}
+
 .project-intro > h2 > a {
   color: black;
 }
 
+.images-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .aside-image {
-  width: 150%;
+  width: 250%;
   padding: 1em;
+  height: 100%;
+  /* object-fit: contain; */
+  /* width: fit-content; */
+}
+
+.aside-image-2 {
+  width: 250%;
+  padding: 1em;
+  /* height: 100%; */
+  /* max-width: 30em; */
+  max-width: 40em;
+  /* object-fit: contain; */
+  /* width: fit-content; */
 }
 
 .section-image {
@@ -163,9 +186,8 @@ li {
   margin: auto;
   padding: 1em;
 }
-
-.images-container {
-  display: flex;
+.small-image {
+  max-width: 35em;
 }
 
 .project-contributions1 {
@@ -185,11 +207,34 @@ li {
   color: black;
 }
 
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+}
+
+.inner-container img {
+  width: 70%;
+  padding: 1em;
+}
+
 .project-contributions2 {
   margin: 3em;
   padding: 1em;
   display: flex;
   align-items: center;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+.project-contributions2 h2 {
+  padding-right: 1em;
+}
+
+.project-contributions2-matcha {
+  margin: 3em;
+  padding: 1em;
   padding-left: 3em;
   padding-right: 3em;
 }
@@ -201,14 +246,27 @@ li {
 
 .project-contributions3 h2 {
   text-align: justify;
-  padding-left: 3em;
-  padding-right: 3em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+#lisa-lasth2 {
   margin-bottom: 3em;
+}
+
+#matcha-last {
+  margin-bottom: 3em;
+}
+
+@media (max-width: 850px) {
+  .project-container {
+    font-size: 60%;
+  }
 }
 
 @media (max-width: 450px) {
   .project-container {
-    font-size: smaller;
+    font-size: 40%;
   }
 }
 
