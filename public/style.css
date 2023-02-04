@@ -161,15 +161,12 @@ li {
 }
 
 .aside-image {
-  width: 250%;
+  width: 70%;
   padding: 1em;
-  height: 100%;
 }
-
-.aside-image-2 {
-  width: 250%;
+.aside-image2 {
+  width: 300%;
   padding: 1em;
-  max-width: 40em;
 }
 
 .section-image {

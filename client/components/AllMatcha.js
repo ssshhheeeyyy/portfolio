@@ -34,9 +34,9 @@ const AllMatcha = () => {
           <img
             src={productsView}
             id="single-product-view"
-            className="aside-image-2"
+            className="aside-image"
           ></img>
-          <img src={inventoryView} className="aside-image-2"></img>
+          <img src={inventoryView} className="aside-image"></img>
         </div>
         <div className="inner-container">
           <h2>

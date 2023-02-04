@@ -49,7 +49,7 @@ const LisaQuest = () => {
           instantiated a local server and implemented a RESTful API to
           communicate with the database.
         </h2>
-        <img src={leaderBoard} className="aside-image"></img>
+        <img src={leaderBoard} className="aside-image2"></img>
       </section>
       <section className="project-contributions3">
         <img src={credits} className="section-image"></img>
