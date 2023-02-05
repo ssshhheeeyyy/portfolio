@@ -66,7 +66,7 @@ const AllMatcha = () => {
           designed our site to have a fresh look. <br />I took charge of
           designing the logo and applying the CSS that styles the background,
           navigation bar, home page and products views, all while making sure I
-          followed a responsive design.
+          followed a responsive design approach.
         </h2>
       </section>
     </main>
