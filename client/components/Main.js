@@ -28,25 +28,19 @@ const Main = () => {
           <spotLight position={[100, 1000, 100]} intensity={3} />
           <Shape />
         </Canvas>
-        <nav className="dropdown">
+        <nav>
           {open ? (
-            <ul className="menu">
-              <li className="home-link">
-                <Link to={'/'} onClick={handleMenu}>
-                  HOME
-                </Link>
-              </li>
-              <li className="projects-link">
-                <Link to={'/projects'} onClick={handleMenu}>
-                  PROJECTS
-                </Link>
-              </li>
-              <li className="about-link">
-                <Link to={'/about'} onClick={handleMenu}>
-                  ABOUT
-                </Link>
-              </li>
-            </ul>
+            <div className="menu">
+              <Link to={'/'} onClick={handleMenu}>
+                HOME
+              </Link>
+              <Link to={'/projects'} onClick={handleMenu}>
+                PROJECTS
+              </Link>
+              <Link to={'/about'} onClick={handleMenu}>
+                ABOUT
+              </Link>
+            </div>
           ) : null}
         </nav>
       </section>
