@@ -20,7 +20,7 @@ const Room = () => {
           to visit the repository on Github.
         </h2>
         <img src={upperView} className="section-image" />
-        <h2>
+        <h2 className="three">
           Three.js is a JavaScript library used to create 3D content for the
           web.
         </h2>
@@ -42,8 +42,8 @@ const Room = () => {
           Controls.
         </h2>
         <div className="images-container">
-          <img src={closeUpCorner} className="aside-image"></img>
-          <img src={bottomUpView} className="aside-image"></img>
+          <img src={closeUpCorner} className="aside-image2"></img>
+          <img src={bottomUpView} className="aside-image2"></img>
         </div>
       </section>
       <section className="project-contributions">

@@ -28,9 +28,9 @@ const LisaQuest = () => {
 
       <section className="project-contributions">
         <div className="images-container">
-          <img src={firstFight} className="aside-image"></img>
-          <img src={thirdFight} className="aside-image"></img>
-          <img src={bossFight} className="aside-image"></img>
+          <img src={firstFight} className="aside-image3"></img>
+          <img src={thirdFight} className="aside-image3"></img>
+          <img src={bossFight} className="aside-image3"></img>
         </div>
         <h2>
           As part of my contributions to the team, I designed the world of the
@@ -44,8 +44,8 @@ const LisaQuest = () => {
       </section>
       <section className="project-contributions-lisa">
         <h2>
-          I developed the leaderboard and instantiated the form that allows the
-          user to enter their score in the database. For this purpose, I
+          I developed the leaderboard and created the form that allows the user
+          to enter their score into the database. For this purpose, I
           instantiated a local server and implemented a RESTful API to
           communicate with the database.
         </h2>
@@ -53,9 +53,9 @@ const LisaQuest = () => {
       </section>
       <section className="project-contributions">
         <h2>
-          For the credits section, I used sprites created by a team member and
-          put together a fun clickable credit section. When you click on our
-          names, you are redirected to our LinkedIn profiles.{' '}
+          For the credits, I used sprites created by a team member and put
+          together a fun clickable credit section. When you click on our names,
+          you are redirected to our LinkedIn profiles.{' '}
           <img src={credits} id="bottom" className="section-image"></img>
         </h2>
       </section>

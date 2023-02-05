@@ -34,16 +34,18 @@ const AllMatcha = () => {
           <img
             src={productsView}
             id="single-product-view"
-            className="aside-image"
+            className="aside-image2"
           ></img>
-          <img src={inventoryView} className="aside-image"></img>
+          <img src={inventoryView} className="aside-image2"></img>
         </div>
         <div className="inner-container">
           <h2>
-            I developed the products slice and designed the database schema,
-            created back end routes, react components and reducers for Products.
-            There are two versions of the all products view, one for a guest or
-            signed in user, and another one for admins. I also created a
+            I developed the product's slice, from designing the database schema,
+            creating the back end routes, as well as the react components and
+            reducers for products. <br />
+            There are two versions of the products view, one for a guest or
+            signed in user, and another one for admins in which the user can see
+            the product's details and delete products. I also created a
             dashboard {'('}seen below{')'}, for the admin to add a new product.
           </h2>
           <img src={addProduct} className="small-image"></img>
@@ -51,13 +53,13 @@ const AllMatcha = () => {
       </section>
       <section className="project-contributions-2">
         <h2>
-          Equally, I produced two versions of the single producs view. For the
+          Equally, I produced two versions of the single products view. For the
           admin version, the user can update any field by simply typing on the
           specific boxes and clicking the update button.
         </h2>
         <div className="images-container">
-          <img src={singleProduct} className="aside-image"></img>
-          <img src={singleProductAdmin} className="aside-image"></img>
+          <img src={singleProduct} className="aside-image2"></img>
+          <img src={singleProductAdmin} className="aside-image2"></img>
         </div>
       </section>
       <section className="project-contributions">
