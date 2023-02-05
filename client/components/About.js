@@ -17,6 +17,10 @@ const About = () => {
         and it is my intention to bring the same ideals to my Software
         Engineering journey.
       </h2>
+      <h2>
+        For job opportunities or just to say hi, please click the contact link
+        below.
+      </h2>
     </section>
   );
 };
