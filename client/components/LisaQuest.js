@@ -52,11 +52,11 @@ const LisaQuest = () => {
         <img src={leaderBoard} className="aside-image2"></img>
       </section>
       <section className="project-contributions3">
-        <img src={credits} className="section-image"></img>
-        <h2 id="bottom">
+        <h2>
           For the credits section, I used sprites created by a team member and
           put together a fun clickable credit section. When you click on our
           names, you are redirected to our LinkedIn profiles.{' '}
+          <img src={credits} id="bottom" className="section-image"></img>
         </h2>
       </section>
     </main>

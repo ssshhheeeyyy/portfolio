@@ -47,12 +47,12 @@ const Room = () => {
         </div>
       </section>
       <section className="project-contributions3">
-        <img src={frontViewGui} className="section-image"></img>
-        <h2 id="bottom">
+        <h2>
           To aid with the design of the room and intensity of the lights, I
           added an user interface that allowed me to play around with specified
           object properties, powered by Dat.GUI.
         </h2>
+        <img src={frontViewGui} id="bottom" className="section-image"></img>
       </section>
     </main>
   );
