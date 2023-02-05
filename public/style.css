@@ -144,7 +144,8 @@ li {
 }
 
 .project-contributions > h1,
-.project-mini-desc {
+.project-mini-desc,
+.three {
   text-align: center;
 }
 
@@ -164,7 +165,12 @@ li {
 }
 
 .aside-image2 {
-  width: 300%;
+  width: 50%;
+  padding: 1em;
+}
+
+.aside-image3 {
+  width: 30%;
   padding: 1em;
 }
 
@@ -204,9 +210,10 @@ li {
 
 @media (max-width: 670px) {
   .aside-image2 {
-    width: 70%;
+    width: 30%;
   }
 }
+
 .project-contributions-lisa {
   margin: 1em;
   margin-left: 3em;
@@ -220,6 +227,7 @@ li {
 
 .project-contributions-lisa h2 {
   padding-right: 2em;
+  width: 50%;
 }
 
 @media (max-width: 670px) {
