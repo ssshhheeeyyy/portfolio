@@ -8,7 +8,7 @@ import frontViewGui from '../../public/room/front-view-with-gui.png';
 const Room = () => {
   return (
     <main className="project-container">
-      <section className="project-intro">
+      <section className="project-contributions">
         <h1>ROOM</h1>
         <h2 className="project-mini-desc">
           3D room created as a fun exploration of Three.js. <br />
@@ -25,7 +25,7 @@ const Room = () => {
           web.
         </h2>
       </section>
-      <section className="project-contributions1">
+      <section className="project-contributions">
         <div className="images-container">
           <img src={frontView} className="aside-image"></img>
         </div>
@@ -36,7 +36,7 @@ const Room = () => {
           well as a texture to the animated ball, using the texture loader.
         </h2>
       </section>
-      <section className="project-contributions2-matcha">
+      <section className="project-contributions-2">
         <h2>
           In order to navigate the room and explore around, I added Orbit
           Controls.
@@ -46,7 +46,7 @@ const Room = () => {
           <img src={bottomUpView} className="aside-image"></img>
         </div>
       </section>
-      <section className="project-contributions3">
+      <section className="project-contributions">
         <h2>
           To aid with the design of the room and intensity of the lights, I
           added an user interface that allowed me to play around with specified

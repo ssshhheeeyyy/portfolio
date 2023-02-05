@@ -10,7 +10,7 @@ import closeUp from '../../public/all-matcha/close-up.png';
 const AllMatcha = () => {
   return (
     <main className="project-container">
-      <section className="project-intro">
+      <section className="project-contributions">
         <h1>ALL MATCHA</h1>
         <h2 className="project-mini-desc">
           Fictional e-commerce website selling all things matcha.
@@ -29,7 +29,7 @@ const AllMatcha = () => {
         </h2>
       </section>
 
-      <section className="project-contributions1">
+      <section className="project-contributions">
         <div className="images-container">
           <img
             src={productsView}
@@ -49,7 +49,7 @@ const AllMatcha = () => {
           <img src={addProduct} className="small-image"></img>
         </div>
       </section>
-      <section className="project-contributions2-matcha">
+      <section className="project-contributions-2">
         <h2>
           Equally, I produced two versions of the single producs view. For the
           admin version, the user can update any field by simply typing on the
@@ -60,7 +60,7 @@ const AllMatcha = () => {
           <img src={singleProductAdmin} className="aside-image"></img>
         </div>
       </section>
-      <section className="project-contributions3">
+      <section className="project-contributions">
         <h2 id="bottom">
           In terms of styling, my team and I created wireframes on Figma and
           designed our site to have a fresh look. <br />I took charge of

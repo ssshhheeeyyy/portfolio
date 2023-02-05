@@ -130,23 +130,25 @@ li {
   text-align: justify;
 }
 
-.project-intro {
-  margin: 3em;
+.project-contributions {
+  margin: 2em;
+  margin-left: 3em;
+  margin-right: 3em;
   padding: 1em;
   padding-left: 3em;
   padding-right: 3em;
 }
 
-.project-intro > h1 {
+.project-contributions > h1 {
   font-size: 3em;
 }
 
-.project-intro > h1,
+.project-contributions > h1,
 .project-mini-desc {
   text-align: center;
 }
 
-.project-intro > h2 > a {
+.project-contributions > h2 > a {
   color: black;
 }
 
@@ -177,20 +179,7 @@ li {
   max-width: 35em;
 }
 
-.project-contributions1 {
-  margin: 3em;
-  padding: 1em;
-  color: black;
-}
-
-.project-contributions1 h2 {
-  padding-left: 4em;
-  padding-right: 4em;
-  color: black;
-  text-align: justify;
-}
-
-.project-contributions1 a {
+.project-contributions a {
   color: black;
 }
 
@@ -206,47 +195,52 @@ li {
   padding: 1em;
 }
 
-.project-contributions2 {
-  margin: 3em;
-  padding: 1em;
-  display: flex;
-  align-items: center;
-  padding-left: 3em;
-  padding-right: 3em;
-}
-
 @media (max-width: 450px) {
   .images-container,
-  .project-contributions2 {
+  .project-contributions {
     flex-direction: column;
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 670px) {
   .aside-image2 {
     width: 70%;
   }
 }
-.project-contributions2 h2 {
-  padding-right: 1em;
-}
-
-.project-contributions2-matcha {
-  margin: 3em;
+.project-contributions-lisa {
+  margin: 1em;
+  margin-left: 3em;
+  margin-right: 3em;
   padding: 1em;
   padding-left: 3em;
   padding-right: 3em;
+  display: flex;
+  align-items: center;
 }
 
-.project-contributions3 {
-  margin: 3em;
+.project-contributions-lisa h2 {
+  padding-right: 2em;
+}
+
+@media (max-width: 670px) {
+  .images-container,
+  .project-contributions-lisa {
+    flex-direction: column;
+  }
+}
+@media (max-width: 670px) {
+  .project-contributions-lisa {
+    padding-right: 0;
+  }
+}
+
+.project-contributions-2 {
+  margin: 1em;
+  margin-left: 3em;
+  margin-right: 3em;
   padding: 1em;
-}
-
-.project-contributions3 h2 {
-  text-align: justify;
-  padding-left: 1em;
-  padding-right: 1em;
+  padding-left: 3em;
+  padding-right: 3em;
 }
 
 #bottom {

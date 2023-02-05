@@ -9,7 +9,7 @@ import credits from '../../public/lisa/credits.png';
 const LisaQuest = () => {
   return (
     <main className="project-container">
-      <section className="project-intro">
+      <section className="project-contributions">
         <h1>LISA QUEST</h1>
         <h2 className="project-mini-desc">
           Classic arcade style platformer game developed with Phaser 3.
@@ -26,7 +26,7 @@ const LisaQuest = () => {
         </h2>
       </section>
 
-      <section className="project-contributions1">
+      <section className="project-contributions">
         <div className="images-container">
           <img src={firstFight} className="aside-image"></img>
           <img src={thirdFight} className="aside-image"></img>
@@ -42,7 +42,7 @@ const LisaQuest = () => {
           into the scenes. I also designed the backgrounds in Illustrator.
         </h2>
       </section>
-      <section className="project-contributions2">
+      <section className="project-contributions-lisa">
         <h2>
           I developed the leaderboard and instantiated the form that allows the
           user to enter their score in the database. For this purpose, I
@@ -51,7 +51,7 @@ const LisaQuest = () => {
         </h2>
         <img src={leaderBoard} className="aside-image2"></img>
       </section>
-      <section className="project-contributions3">
+      <section className="project-contributions">
         <h2>
           For the credits section, I used sprites created by a team member and
           put together a fun clickable credit section. When you click on our
