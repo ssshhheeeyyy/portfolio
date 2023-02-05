@@ -12,7 +12,7 @@ const LisaQuest = () => {
       <section className="project-contributions">
         <h1>LISA QUEST</h1>
         <h2 className="project-mini-desc">
-          Classic arcade style platformer game developed with Phaser 3.
+          Classic arcade style platformer game, developed with Phaser 3.
           <br /> Click{' '}
           <a href="http://lisaquest.onrender.com/" target="_blank">
             here
@@ -44,10 +44,10 @@ const LisaQuest = () => {
       </section>
       <section className="project-contributions-lisa">
         <h2>
-          I developed the leaderboard and created the form that allows the user
-          to enter their score into the database. For this purpose, I
-          instantiated a local server and implemented a RESTful API to
-          communicate with the database.
+          I instantiated a local server, designed the leaderboard and created
+          the form that allows the user to enter their score into the database.
+          For this purpose, I created the back end routes that communicate with
+          the database.
         </h2>
         <img src={leaderBoard} className="aside-image2"></img>
       </section>

@@ -44,9 +44,10 @@ const AllMatcha = () => {
             creating the back end routes, as well as the react components and
             reducers for products. <br />
             There are two versions of the products view, one for a guest or
-            signed in user, and another one for admins in which the user can see
-            the product's details and delete products. I also created a
-            dashboard {'('}seen below{')'}, for the admin to add a new product.
+            signed in user, and another one for admins. In the admin view, the
+            user is able to see the product's details and delete products. I
+            also created a dashboard {'('}seen below{')'}, for the admin to add
+            a new product.
           </h2>
           <img src={addProduct} className="small-image"></img>
         </div>
