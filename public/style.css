@@ -8,6 +8,10 @@
   min-height: 100vh;
 }
 
+#navbar {
+  margin-bottom: 2em;
+}
+
 .menu {
   position: absolute;
   width: 100%;
