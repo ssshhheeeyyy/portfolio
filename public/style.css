@@ -209,8 +209,8 @@ li {
 }
 
 @media (max-width: 670px) {
-  .aside-image2 {
-    width: 30%;
+  .aside-image3 {
+    width: 70%;
   }
 }
 
@@ -237,8 +237,15 @@ li {
   }
 }
 @media (max-width: 670px) {
-  .project-contributions-lisa {
-    padding-right: 0;
+  .project-contributions-lisa > h2 {
+    padding: 0;
+    width: 80%;
+  }
+}
+
+@media (max-width: 670px) {
+  .aside-image2 {
+    width: 70%;
   }
 }
 
@@ -251,10 +258,6 @@ li {
   padding-right: 3em;
 }
 
-#bottom {
-  margin-bottom: 5em;
-}
-
 @media (max-width: 850px) {
   .project-container {
     font-size: 60%;
@@ -265,6 +268,10 @@ li {
   .project-container {
     font-size: 40%;
   }
+}
+
+#bottom {
+  margin-bottom: 5em;
 }
 
 footer {
