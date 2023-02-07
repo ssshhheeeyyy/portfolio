@@ -16,7 +16,7 @@ const Main = () => {
   const [open, setOpen] = useState(false);
 
   const handleMenu = () => {
-    setOpen(!open);
+    setOpen(true);
   };
 
   return (
