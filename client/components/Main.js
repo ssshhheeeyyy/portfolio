@@ -21,7 +21,11 @@ const Main = () => {
 
   return (
     <div id="container">
-      <section id="navbar" onClick={handleMenu}>
+      <section
+        id="navbar"
+        onClick={handleMenu}
+        aria-label="Torus Knot shape. Click to access the menu."
+      >
         <Canvas id="canvas">
           <ambientLight intensity={15} />
           <directionalLight position={[-2, 5, 2]} intensity={3} />
@@ -56,7 +60,7 @@ const Main = () => {
         </Route>
         <Route path="*" element={<NotFound />} />
       </Routes>
-      <section id="footer">
+      <section id="footer" aria-label="footer">
         <Footer />
       </section>
     </div>
