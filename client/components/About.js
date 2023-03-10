@@ -18,8 +18,8 @@ const About = () => {
         Engineering journey.
       </h2>
       <h2>
-        For job opportunities or just to say hi, please click the contact link
-        below.
+        Connect with me on LinkedIn or click on the contact link below to send
+        me an email! I can't wait to hear from you.
       </h2>
     </section>
   );
