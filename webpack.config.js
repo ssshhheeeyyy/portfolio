@@ -9,7 +9,7 @@ module.exports = {
     path: path.resolve(__dirname, 'public'),
     assetModuleFilename: 'images/[hash][ext][query]',
   },
-  mode: 'development',
+  mode: 'production',
   context: __dirname,
   devtool: 'source-map',
   module: {
@@ -28,7 +28,7 @@ module.exports = {
       },
       {
         test: /\.(png|jpe?g|gif|svg|eot|ttf|woff|woff2)$/i,
-        type: 'asset',
+        type: 'asset/resource',
       },
     ],
   },

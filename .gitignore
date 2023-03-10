@@ -2,5 +2,7 @@ node_modules
 package-lock.json
 public/bundle.js
 public/bundle.js.map
-.DS_Store
 public/images
+public/bundle.js.LICENSE.txt
+.DS_Store
+
