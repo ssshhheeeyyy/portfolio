@@ -82,6 +82,10 @@
   color: whitesmoke;
 }
 
+#room-container {
+  margin-bottom: 3em;
+}
+
 #room h2 {
   background: none;
 }
