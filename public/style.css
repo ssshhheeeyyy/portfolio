@@ -217,32 +217,9 @@ li {
   }
 }
 
-.project-contributions-lisa {
-  margin: 1em;
-  margin-left: 3em;
-  margin-right: 3em;
-  padding: 1em;
-  padding-left: 3em;
-  padding-right: 3em;
-  display: flex;
-  align-items: center;
-}
-
-.project-contributions-lisa h2 {
-  padding-right: 2em;
-  width: 50%;
-}
-
 @media (max-width: 670px) {
-  .images-container,
-  .project-contributions-lisa {
+  .images-container {
     flex-direction: column;
-  }
-}
-@media (max-width: 670px) {
-  .project-contributions-lisa > h2 {
-    padding: 0;
-    width: 80%;
   }
 }
 
