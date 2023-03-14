@@ -21,9 +21,9 @@ const LisaQuest = () => {
             target="_blank"
             aria-label="Link to deployed project website"
           >
-            Lisa Quest Deployed Website
+            Lisa Quest
           </a>{' '}
-          to play.
+          deployed website to play.
         </h2>
         <img
           src={opening}
