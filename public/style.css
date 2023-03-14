@@ -233,15 +233,6 @@ li {
   }
 }
 
-.project-contributions-2 {
-  margin: 1em;
-  margin-left: 3em;
-  margin-right: 3em;
-  padding: 1em;
-  padding-left: 3em;
-  padding-right: 3em;
-}
-
 @media (max-width: 850px) {
   .project-container {
     font-size: 60%;
